@@ -49,8 +49,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         let labels = cell.contentView.viewWithTag(1000) as! UILabel
         labels.text = textStr as String
 
+//        dump(dict[String(indexPath.row)])
+
+//        let str = dict[String(indexPath.row)]
+//        print(str)
+        
         // 使用String()函数将indexPath.row转化为String类型
-        if dict[String(indexPath.row)] == "0" {
+        if dict[String(indexPath.row)] == "0" || dict[String(indexPath.row)] == nil{
             labels.numberOfLines = 0
         } else {
             labels.numberOfLines = 1

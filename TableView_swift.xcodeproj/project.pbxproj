@@ -12,6 +12,7 @@
 		830878C21DFFE2130099B35D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830878C01DFFE2130099B35D /* Main.storyboard */; };
 		830878C41DFFE2130099B35D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 830878C31DFFE2130099B35D /* Assets.xcassets */; };
 		830878C71DFFE2130099B35D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830878C51DFFE2130099B35D /* LaunchScreen.storyboard */; };
+		8378D3371E00D871001236A2 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8378D3361E00D871001236A2 /* MyTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		830878C31DFFE2130099B35D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		830878C61DFFE2130099B35D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		830878C81DFFE2140099B35D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8378D3361E00D871001236A2 /* MyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				830878BC1DFFE2120099B35D /* AppDelegate.swift */,
 				830878BE1DFFE2130099B35D /* ViewController.swift */,
+				8378D3361E00D871001236A2 /* MyTableViewController.swift */,
 				830878C01DFFE2130099B35D /* Main.storyboard */,
 				830878C31DFFE2130099B35D /* Assets.xcassets */,
 				830878C51DFFE2130099B35D /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				830878BF1DFFE2130099B35D /* ViewController.swift in Sources */,
+				8378D3371E00D871001236A2 /* MyTableViewController.swift in Sources */,
 				830878BD1DFFE2120099B35D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +304,7 @@
 				830878CD1DFFE2140099B35D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
